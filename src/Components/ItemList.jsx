@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import LineItem from "./LineItem";
 
-const ItemList = () => {
+const ItemList = ({ items, handleCheck, handleDelete }) => {
   return (
-    <div>ItemList</div>
-  )
-}
+    <ul>
+      {items.map((item) => (
+        <LineItem
+          item={item}
+          handleCheck={handleCheck}
+          handleDelete={handleDelete}
+        />
+      ))}
+    </ul>
+  );
+};
 
-export default ItemList
+export default ItemList;
