@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
 
-const SearchItem = () => {
+const SearchItem = ({ search, setSearch }) => {
   return (
-    <div>SearchItem</div>
-  )
-}
+    <form className="searchForm" onSubmit={(e) => e.preventDefault()}>
+      <label htmlFor="search">Search</label>
+      <input
+        type="text"
+        placeholder="Search Item"
+        role="searchbox"
+        id="search"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+      />
+    </form>
+  );
+};
 
-export default SearchItem
+export default SearchItem;
