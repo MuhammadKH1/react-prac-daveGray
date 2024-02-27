@@ -45,7 +45,7 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 85.3vh;
+  height: 100%;
   flex-grow: 1;
   justify-content: flex-start;
   align-items: center;
@@ -121,13 +121,8 @@ ul li::before {
   display: flex;
   justify-content: flex-start;
   margin: 0.5rem 0 0;
-  padding: 0 0.5rem 0.25rem;
+  padding: 0.5rem 0.25rem;
   border-bottom: 1px solid #eee;
-}
-
-.addForm label {
-  position: absolute;
-  left: -99999px;
 }
 
 .addForm input[type="text"] {
@@ -135,7 +130,7 @@ ul li::before {
   max-width: calc(100% - 50px);
   min-height: 48px;
   font-size: 1rem;
-  padding: 0.25rem;
+  padding: 0 ;
   border-radius: 0.25rem;
   margin-right: 0.25rem;
   outline: none;
