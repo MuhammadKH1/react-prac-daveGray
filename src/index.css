@@ -17,6 +17,7 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #1a1a1a;
 }
 
 .App {
@@ -130,7 +131,7 @@ ul li::before {
   max-width: calc(100% - 50px);
   min-height: 48px;
   font-size: 1rem;
-  padding: 0 ;
+  padding: 0;
   border-radius: 0.25rem;
   margin-right: 0.25rem;
   outline: none;

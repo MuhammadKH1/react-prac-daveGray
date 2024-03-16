@@ -3,7 +3,7 @@ import LineItem from "./LineItem";
 
 const ItemList = ({ items, handleCheck, handleDelete }) => {
   return (
-    <ul>
+    <div>
       {items.map((item) => (
         <LineItem
           key={item.id}
@@ -12,7 +12,7 @@ const ItemList = ({ items, handleCheck, handleDelete }) => {
           handleDelete={handleDelete}
         />
       ))}
-    </ul>
+    </div>
   );
 };
 
