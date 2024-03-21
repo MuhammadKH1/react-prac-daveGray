@@ -1,7 +1,9 @@
 {
   "items": [
-    { "id": 1, "checked": false, "item": "Fish and Chips" },
-    { "id": 2, "checked": false, "item": "Fish and Meat" },
-    { "id": 3, "checked": false, "item": "Fish and Bread" }
+    {
+      "id": 1,
+      "checked": false,
+      "item": "Muhammad"
+    }
   ]
 }
